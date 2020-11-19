@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/r_color"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:max="255"
+        android:maxHeight="5dp"
+        android:minHeight="5dp"
+        android:layout_margin="8dp"
+        android:outlineAmbientShadowColor="@color/colorPrimary"
+        android:outlineSpotShadowColor="@color/colorPrimary"/>
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/g_color"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:max="255"
+        android:maxHeight="5dp"
+        android:minHeight="5dp"
+        android:layout_margin="8dp"
+        android:outlineAmbientShadowColor="@color/colorPrimary"
+        android:outlineSpotShadowColor="@color/colorPrimary"/>
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/b_color"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:max="255"
+        android:maxHeight="5dp"
+        android:minHeight="5dp"
+        android:layout_margin="8dp"
+        android:outlineAmbientShadowColor="@color/colorPrimary"
+        android:outlineSpotShadowColor="@color/colorPrimary"/>
+</LinearLayout>

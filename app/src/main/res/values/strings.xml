@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Color Picker</string>
+    <string name="color_picker">Color Picker</string>
+
+    <string name="custom_palette">Custom palette</string>
+    <string name="harmonic_palette">Harmonic palette</string>
+    <string name="image_palette">Image palette</string>
+
+    <string name="my_palette">My palette</string>
+    <string name="favourites">Favourites</string>
+    <string name="settings">Settings</string>
+    <string name="select_image">Select image</string>
+    <string name="quantity">Quantity of color samples</string>
+
+    <string name="name">Name</string>
+    <string name="copy">Copy</string>
+    <string name="apply">Apply</string>
+
+    <string name="r_text">R</string>
+    <string name="g_text">G</string>
+    <string name="b_text">B</string>
+    <string name="h_text">H</string>
+    <string name="s_text">S</string>
+    <string name="v_text">V</string>
+    <string name="code_text">#</string>
+</resources>

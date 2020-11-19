@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="adapter"
+            type="com.story.creator.picker.adapter.ColorAdapter" />
+        <variable
+            name="position"
+            type="int" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1F717CAA"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/color_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/hail_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:padding="@dimen/dp_16"
+            android:onClick="@{()->adapter.onItemClick(null, position)}"
+            android:src="@drawable/add" />
+        <!--        android:src="@mipmap/add"/>-->
+    </LinearLayout>
+</layout>
